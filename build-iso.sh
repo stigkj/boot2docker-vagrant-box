@@ -6,7 +6,7 @@
 set -e
 set -x
 
-B2D_URL="https://github.com/boot2docker/boot2docker/releases/download/v0.9.1/boot2docker.iso"
+B2D_URL="http://static.dockerfiles.io/boot2docker-v1.0.0-virtualbox-guest-additions-v4.3.12.iso"
 
 apt-get -y update
 apt-get install -y genisoimage
